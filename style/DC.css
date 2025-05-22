@@ -46,6 +46,7 @@ header nav .nav-links a{
     padding: 0 1rem;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.2s ease-in;
 }
 header nav .nav-links a:hover{
 
@@ -59,6 +60,7 @@ header nav .nav-btn a{
     border-radius: 10px;
     display: inline-block;
     color: #fff;
+    transition: background-color 0.3s ease-in;
 }
 header nav .nav-btn a:hover{
     background-color: #043929;
@@ -67,6 +69,7 @@ header nav .nav-btn a:hover{
 .show{
     display: flex;
 }
+
 @media (max-width: 768px) {
     header img{
     width: 85px;
@@ -145,6 +148,7 @@ header nav .nav-btn a:hover{
     font-family:"Bricolage Grotesque", sans-serif;
 }
 .hero-container .hero-text{
+    
     font-size: 1.1rem;
     color: #333232;
 }
@@ -157,6 +161,7 @@ header nav .nav-btn a:hover{
     padding: 1.1rem 1.4rem;
     border-radius: 10px;
     text-decoration: none;
+    transition: background-color 0.3s ease-in;
 
 }
 .hero-container .hero-btn-a:hover{
@@ -198,8 +203,8 @@ header nav .nav-btn a:hover{
 .services-section{
     width: 100%;
     min-height: 70vh;
-    background-color: #D7E8E3;
-    border-radius: 0 0 50px 0;
+    background-color: #d7e8e3b0;
+    border-radius: 0 0 100px 0;
     padding: 3rem 0;
 }
 .services-section .services-col{
@@ -229,7 +234,7 @@ header nav .nav-btn a:hover{
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    transition: background-color 0.3s ease-in;
 }
 .services-section .desc a:hover{
     background-color: #043929;
@@ -298,7 +303,8 @@ header nav .nav-btn a:hover{
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    
+    transition: background-color 0.3s ease-in;
 }
 .learn-section .learn-txt-card a:hover{
     background-color: #043929;
@@ -365,7 +371,7 @@ header nav .nav-btn a:hover{
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    transition: background-color 0.3s ease-in;
 }
 .build-section .build-txt-card a:hover{
     background-color: #fff;
@@ -506,6 +512,7 @@ header nav .nav-btn a:hover{
     background-color: #47D0A7;
     padding: 1rem 0;
     border-radius: 7px;
+    transition: background-color 0.3s ease-in;
 }
 .details-btn a:hover{
     background-color: #043929;
@@ -537,6 +544,9 @@ header nav .nav-btn a:hover{
     list-style-position: inside;
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+.details-section .details-desc .desc-col a{
+    color: #fff;
 }
 @media (max-width: 800px) {
     .details-section .details-card{
