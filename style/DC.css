@@ -128,7 +128,7 @@ header nav .nav-btn a:hover{
 
 .hero-section{
     width: 100%;
-    min-height: 80vh;
+    min-height: 75vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
