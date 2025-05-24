@@ -9,6 +9,10 @@
  /* font-family:"Bricolage Grotesque", sans-serif;
     primary-color:#47D0A7;
     secondary-color:#043929; */
+
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 90%;
     display: flex;
