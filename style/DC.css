@@ -594,6 +594,18 @@ header nav .nav-btn a:hover{
 
 }
 
+/* consultation section */
+.consultation{
+    width: 100%;
+    padding: 2rem 0;
+}
+.consult-card{
+    width: 49%;
+    background-color: #d7e8e3b0;
+    min-height: 500px;
+    padding: 2rem 1.5rem;
+}
+
 
 /* footer */
 .footer-section{
